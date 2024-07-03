@@ -1,0 +1,132 @@
+body{
+    background-image: url(/Logo.jpg);
+    color: white;
+    text-shadow: 2px 2px #686D76;
+}
+
+div.gallery-adventure   {
+    margin: auto;
+    padding: 100px;
+    border: 2px solid  #dc5f00;
+    position: fixed;
+    left: 150px;
+    top: 0px;
+    width: 15%;
+    height: auto;
+    overflow: none;
+    justify-content: space-between;
+}
+div.gallery-world {
+    margin: auto;
+    padding: 100px;
+    position: fixed;
+    right: 300px;
+    top: 0px;
+    width: 15%;
+    height: auto;
+    overflow: none;
+    justify-content: space-between;
+}
+div.gallery-robotics{
+    margin: auto;
+    padding: 100px;
+    border: 2px solid  #dc5f00;
+    position: fixed;
+    
+    top: 200px;
+    right: 150px;
+    left: 115px;
+    width: 15%;
+    height: auto;
+    overflow: none;
+    justify-content: space-between;
+}
+div.gallery-buzzfeed {
+    margin: auto;
+    padding: 100px;
+    position: fixed;
+    right: 300px;
+    bottom: -110px;
+    width: 15%;
+    height: auto;
+    overflow: none;
+    justify-content: space-between;
+}
+div.gallery-fortnite {
+    margin: auto;
+    padding: 100px;
+    border: 2px solid  #dc5f00;
+    position: fixed;
+    left: 150px;
+    bottom: -110px;
+    width: 15%;
+    height: auto;
+    overflow: none;
+    justify-content: space-between;
+}
+
+div.gallery-adventure:hover {
+    width: 16%;
+    transition: 0.5s;
+    
+}
+div.gallery-world:hover {
+    width: 16%;
+    transition: 0.5s;
+    
+}
+div.gallery-robotics:hover {
+    width: 16%;
+    transition: 0.5s;
+    
+}
+div.gallery-fortnite:hover {
+    width: 16%;
+    transition: 0.5s;
+    
+}
+div.gallery-buzzfeed:hover {
+    width: 16%;
+    transition: 0.5s;
+    
+}
+div.gallery-adventure img {
+    width: 150%;
+    height: 150%;
+} 
+div.gallery-world img {
+    width: 150%;
+    height: 150%;
+} 
+div.gallery-robotics img {
+    width: 100%;
+    height: 100%;
+} 
+div.gallery-fortnite img {
+    width: 150%;
+    height: 150%;
+} 
+div.gallery-buzzfeed img {
+    width: 150%;
+    height: 150%;
+} 
+/*div.gallery img:hover{
+    width: 18%;
+    height: auto;
+    transition: 0.5s;
+}*/
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+    
+}
+.backBtn{
+    text-decoration: none;
+    border: 2px solid #686D76;
+    width: 45px;
+    height: 45px;
+    
+}

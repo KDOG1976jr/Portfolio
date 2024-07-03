@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/Logo.jpg);
+    color: black;
+    transition: all 0.3s ease;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: left;
+    position: relative;
+
+}
+li.a{
+    display: block;
+    padding: 8px;
+    background-color: #686D76;
+}
+.videobtn{
+    background-color: #686D76;
+    
+}
+.audiobtn{
+    background-color: #686D76;
+}
+.accessibilityBtn {
+    background-color: #686D76;
+}
+.creditsBtn{
+  background-color: #686D76;
+}
+
+
+
+.slider {
+    width: 100%; 
+  }
+  
+  
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    width: 100%; 
+    height: 25px; 
+    background: #d3d3d3;
+    outline: none; 
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+  }
+  
+ 
+  .slider:hover {
+    opacity: 1; 
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    background: #686D76; 
+    cursor: pointer; 
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; 
+    height: 25px; 
+    background: #686D76; 
+    cursor: pointer; 
+  }
+  .audioPg,
+  .accessibilityPg,
+  .creditsPg{
+    display: none;
+  }

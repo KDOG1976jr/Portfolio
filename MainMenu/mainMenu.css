@@ -1,0 +1,62 @@
+body{
+    background-image: url(/Logo.jpg);
+}
+
+
+li{
+    overflow: hidden;
+    text-decoration: none;
+    transition: opacity 1s ease-in;
+}
+
+li a{
+   display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    text-shadow: 2px 2px #686D76;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 60px;
+
+
+
+}
+
+li a:hover{
+    font-size: 80px;
+    transition: 1s;
+}
+img{
+   
+    justify-content: right;
+}
+
+.fade-in-text {
+    opacity: 0;
+    transition: opacity 2s;
+    font-size: 2rem;
+    color: #333;
+}
+.fade-in-text-2 {
+    opacity: 0;
+    transition: opacity 2s;
+    font-size: 2rem;
+    color: #333;
+}
+.fade-in-text-3 {
+    opacity: 0;
+    transition: opacity 2s;
+    font-size: 2rem;
+    color: #333;
+}
+.fade-in-text-4 {
+    opacity: 0;
+    transition: opacity 2s;
+    font-size: 2rem;
+    color: #333;
+}
+h6{
+    color: white;
+    text-shadow: 2px 2px #686D76;
+}

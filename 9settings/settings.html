@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Blind Mode</title>
+    <link rel="stylesheet" href="settings.css">
+    <link rel="stylesheet" href="settings.js">
+</head>
+<body>
+    <ul>
+        <li><button class="videobtn">Video</button></li>
+        <li><button class="audiobtn">Audio</button></li>
+        <li><button class="accessibilityBtn">Accessibility</button></li>
+        <li><button class="creditsBtn">Credits</button></li>
+    </ul>
+
+    <div class="videoPg">
+        <h3>FPS: </h3><div class="slider">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <h3>Graphics Quality: </h3>
+      <div class="option">
+        <button class="btn">Low</button>
+        <button class="btn2">Medium</button>
+        <button class="btn3">High</button>
+        <button class="btn4">Extreme</button>
+      </div>
+      <h3>Vsync</h3>
+        <div class="option">
+        <button class="btn5">Yes</button>
+        <button class="btn6">No</button>
+      </div>
+    </div>
+
+    <div class="audioPg">
+        <h3>Master Volume: </h3><div class="slider">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div> 
+        <h3>Music: </h3>
+        <div class="slider">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <h3>Dialogue</h3>
+        <div class="slider">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <h3>Voice Chat Volume: </h3>
+        <div class="slider">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+        <h3>Toggle Voice Chat:</h3>
+        <div class="option">
+            <button class="btn7">Open Mic</button>
+            <button class="btn8">Push to Talk</button>
+            <button class="btn9">Off</button>
+        </div>
+    </div>
+   
+    <div class="accessibilityPg">
+        <H2>Color Blind Mode: </H2>
+        <button class="test">Click Me</button>
+        <button class="reset">Reset</button>
+    </div>
+    <div class="creditsPg">
+        <H2>Social Media Icons: <a href="https://www.w3schools.com/icons/default.asp">Here</a></H2>
+    </div>
+
+
+    <script src="settings.js"></script>
+</body>
+</html>
